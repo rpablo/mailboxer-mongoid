@@ -1,5 +1,5 @@
 # Mailboxer
-  
+
   
   I needed private messaging, found the Mailboxer (https://github.com/mailboxer/mailboxer) very good, but in my system I use Mongoid, this gem was not going to serve me (she makes heavy use of joins and MongoDB does not support this, nor is there need), I realized that to wear the jewelry that I needed to encode, so I decided to put their hands dirty, I mean, in the code and porting it to support Mongoid, so this is a gem Mailboxer supporting Mongoid and only this.
   I intend to keep that gem always compatible with Mailboxer and can add new features.
